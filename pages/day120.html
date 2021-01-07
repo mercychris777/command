@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+	<title>other css and pseudo classes</title>
+	<style type="text/css">
+	.box{
+	margin-right:2px;
+	border:1px solid red;
+	width:30%;
+	float:left;
+	min-height:100px;
+	}
+	
+	@media screen and (min-width:600px) and (max-width:800px){
+	.box{
+	float:none;
+	width:100%;
+	}
+	}
+	</style>
+
+</head>
+<body>
+<div style="border:1px solid red; width:900px; min-height:100px;">
+	<div style="border:1px solid red; height:100px; width:900px; background-color:yellow; margin:auto;"></div>
+	<div style="border:1px solid red; width:100%; overflow:auto; box-sizing:border-box;">
+		<div class="box">box1</div>
+		<div class="box">box2</div>
+		<div class="box">box3</div>
+		
+
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+@font-face {
+font family:myfirstfont;
+src:url(fonts/rubik/rubik-blackitalic-webfont.woff)format("woff"),
+	url(fonts/rubik/rubik-blackitalic-webfont.tff)format("truetype"),
+	url(fonts/rubik/rubik-blackitalic-webfont.svg)format("svg");
+}
+p{
+	font-family:myfirstfont;
+	border-width:thin; /*number think meduim*/
+	border-color:green;
+	border-style:groove /*dashed groove none*/
+	
+}
+p{
+	border-width: 5px;
+	border-top-color:red; 
+	border-right-color:green;
+	border-left-color:blue;
+	border-bottom-color: black;
+}
+#mercy{
+	border-radius:2px;
+}

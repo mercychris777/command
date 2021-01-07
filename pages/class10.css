@@ -1,0 +1,64 @@
+div{
+	border: 10px solid grey;
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-color: red;
+  display:inline-block;
+  
+}
+
+
+#mercy{
+	border: 10px solid grey;
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-color: yellow;
+  
+}
+
+#tony{
+	border: 10px solid grey;
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-color: green;
+  
+}
+ul li{
+	display:inline-block;
+	background-color: blue;
+	border-radius:15%;
+	list-style-type:none;
+	text-align:center;
+	
+	width:100px;
+	text-align: center;
+	margin:20px;
+	
+	
+	
+}
+ul{
+	background-image: url("../images/kettle.jpg");
+
+	height:400px;
+	background-color: orange;
+	background-repeat:no-repeat;
+	/*repeat repeat-x repeat-y*/
+	background-position:top right;
+
+}
+ul li a{
+	text-decoration:none;
+	
+}
+p{
+	background-image: url("../images/plate.jpg");
+	background-size:cover;
+	height:800px;
+	width:800px;
+	background-attachment:fixed;
+}
+	
